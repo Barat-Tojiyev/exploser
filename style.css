@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,
+     'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 
+     'Helvetica Neue', sans-serif;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(https://picsum.photos/1000/1000/?blur);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 70%;
+   
+    /* background-color: rgba(0, 0, 0, 0); */
+    margin: 0 auto;
+    margin-top: 40px;   
+
+}
+.logo{
+    text-align: center;
+}
+.nav{
+    display: flex;
+    margin-top: 90px;
+    justify-content: space-around;
+
+}
+.nav-item{
+    list-style-type: none;
+    text-transform: uppercase;
+    color: #bbb;
+    padding-bottom: 15px;
+    transition: 0.5s all ease;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+
+}
+.nav-item:hover{
+    color: #fff;
+   border-bottom: 2px solid #ddd;
+   cursor: pointer;
+}
+.main{
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+.card{
+    background-image: url('./Image/card1.png');
+    height:400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.card_container{
+    padding-top: 200px;
+    padding-left: 100px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+.user_text{
+    color: #fff;
+    margin-left: 10px;
+}
+.card_h1{
+    width: 70%;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.main_text{
+    background-color: #fff;
+    padding:70px 100px 50px 100px;
+
+}
+.link{
+    color:#8D4FDB;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.card:nth-child(1){
+    background-image: url('./Image/card1.png');
+}
+.card:nth-child(1){
+    background-image: url('./Image/card2.png') !important;
+}
+.card:nth-child(3){
+    background-image: url('./Image/card3.png') !important;
+}
+
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer h1{
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 40px;
+
+}
+.footer button{
+   padding: 18px 50px;
+   color: #fff;
+   background-color: #8D4FDB;
+   border: none;
+   border-radius: 5px;
+   cursor: pointer;
+}
